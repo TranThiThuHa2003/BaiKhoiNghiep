@@ -62,6 +62,22 @@
   color: var(--primary-color);
   font-size: 50px;
   font-weight: 700;
+  opacity: 0;
+}
+
+.slogan-hello {
+  animation: toLeft 1s forwards;
+  animation-delay: 0.4s;
+}
+
+.slogan-name {
+  animation: toLeft 1s forwards;
+  animation-delay: 1.4s;
+}
+
+.slogan-firstname {
+  animation: toLeft 1s forwards;
+  animation-delay: 2.4s;
 }
 
 /* ------ works ------ */
